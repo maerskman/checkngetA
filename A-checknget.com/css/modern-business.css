@@ -1,0 +1,79 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+/*body {
+    /*padding-top: 54px;
+    /*background-color: blue; */
+    /*background-image: url('../images/circles.png');
+/********************************************************** codepen code addition starz.css**************************************/
+    
+
+  body {
+  height: 100%;
+  
+}
+
+
+/*
+.playing_canvas {
+    background: #000;
+    color: #fff;   
+    margin: 0 auto;
+    height: 100%;       
+    width: 100%
+}
+.star {
+    margin: 0;
+    padding: 0;
+}  */
+
+
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#bg canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/********************************************************* end codepen addition starz.css****************************************/
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+/*#body {  /*background-image: url('../images/circles.png');*/
+
+
+}

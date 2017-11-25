@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+.playing_canvas {
+    background: #000;
+    color: #fff;    
+    margin: 0 auto;
+    height: 100%;       
+    width: 100%
+}
+.star {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*********  https://codepen.io/svinkle/pen/rEmIH#code-area *****/
